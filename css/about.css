@@ -1,0 +1,54 @@
+.about__title {
+   padding-top: 40px;
+   display: flex;
+   text-align: center;
+   margin-bottom: 40px;
+}
+.about__line{
+   width: 200px;
+   height: 5px;
+   border-radius: 2px;
+   background-color: #ff760b;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+.about__title--text {
+   font-size: 36px;
+   line-height: 54px;
+   font-weight: 700;
+}
+.about__warranty--text span,
+.about__team--text span,
+.about__innovations--text span,
+.about__objects--text span,
+.about__title--text span {
+   color: #ff760b;
+   font-weight: 700;
+}
+.about__warranty,
+.about__team,
+.about__innovations,
+.about__objects {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 20px auto;
+   justify-content: center;
+}
+.about__team--img img, 
+.about__warranty--img img,
+.about__innovations--img img,
+.about__objects--img img {
+   height: 250px;
+   max-width: 320px;
+}
+/* .about__team--img img {
+   height: 400px;
+} */
+.about__objects--text ,
+.about__innovations--text,
+.about__team--text ,
+.about__warranty--text {
+   font-size: 26px;
+   line-height: 39px;
+   max-width: 700px;
+}

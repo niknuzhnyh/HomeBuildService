@@ -1,0 +1,86 @@
+/* создаем бургер */
+.navicon {
+  width: 30px;
+  height: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.navicon span {
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #dadada;
+    transition:all .3s;
+}
+.navicon span::before,
+.navicon span::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #dadada;
+    transition:all .3s;
+}
+.navicon span::before {
+  content: '';
+  top: -8px;
+}
+.navicon span::after {
+  content: '';
+  top: 8px;
+}
+
+/* медиа запрос */
+/* @media only screen and (max-width : 800px) {
+    body.no-scroll {
+      overflow: hidden;
+    }
+    .header.active{
+      height: 100%;
+      overflow: auto;
+    }
+  	.navicon {
+    display: block;
+    }
+    .navicon.active span {
+      transform: rotate(45deg);
+      transition:all .3s;
+    }
+    .navicon.active span::before {
+      top: 0;
+      transform: rotate(0);
+      transition:all .3s;
+    }
+    .navicon.active span::after {
+      top: 0;
+      transform: rotate(90deg);
+      transition:all .3s;
+    }
+    .menu-list{
+      margin-top: -1px;
+    }
+    .menu-list ul{
+      display: none;
+      position: absolute;
+      left: 0;
+      right: 0;
+      background-image: url(../images/bg/service-item-bg.jpg);
+      height: 100%;
+      margin-top: -1px;
+    }
+    .menu-list li{
+      display: block;
+      text-align: center;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      margin-top: -1px;
+    }
+    .menu-list a{
+      display: block;
+      width: 90%;
+      margin: 0 auto;
+
+    }
+} */

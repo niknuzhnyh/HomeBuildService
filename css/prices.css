@@ -1,0 +1,42 @@
+.main-content{
+   padding-bottom: 60px;
+}
+.prices__header {
+   display: flex;
+   padding-top: 40px;
+}
+.prices__header--line {
+   width: 450px;
+   height: 8px;
+   background-color: #ff760b;
+   margin-top: 27px;
+}
+.prices__title {
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0.1em;
+  margin-left: 55px;
+  font-weight: 500;
+}
+.prices__btn{
+   display: block;
+   font-size: 30px;
+   color: #555;
+   padding: 15px;
+   max-width: max-content;
+   background-color: #ff760b;
+   border-radius: 10px;
+   text-align: center;
+   margin: 40px auto;
+}
+.prices__content {
+   margin: 40px auto;
+}
+.prices__content th{
+   padding-top: 30px;
+}
+.prices__content td {
+   border: #ff760b solid 1px;
+   padding: 10px;
+}

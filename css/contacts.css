@@ -1,0 +1,50 @@
+.contacts__header {
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.contacts__line {
+  width: 450px;
+  height: 8px;
+  background-color: #ff760b;
+  margin-top: 27px;
+}
+.contacts__title {
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0.1em;
+  margin-left: 55px;
+  font-weight: 500;
+}
+hr {
+   display: block;
+   height: 5px;
+   background-color: #ff760b;
+   margin-bottom: 40px;
+}
+.contacts__phone ,
+.contacts__addres ,
+.contacts__social ,
+.contacts__e-mail {
+   display: flex;
+   justify-content: space-between;
+}
+.contacts__item--title {
+   font-weight: 700;
+}
+.contacts__social--inner {
+   font-size: 35px;
+   line-height: 1.5;
+   padding-bottom: 40px;
+}
+.icon-facebook-square ,
+.icon-twitter-square ,
+.icon-odnoklassniki-square ,
+.icon-instagram ,
+.icon-youtube-square ,
+.icon-vk {
+   text-decoration: none;
+   color: #ff760b;
+   margin-left: 35px;
+}
