@@ -24,6 +24,11 @@
    margin-top: 30px;
    margin-bottom: 30px;
 }
+.gallery__more{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
 .gallery__unit--right ,
 .gallery__unit--left {
    display: flex;
